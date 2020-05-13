@@ -1,0 +1,103 @@
+
+body {
+    margin: auto;
+    width: 1024px;
+    border: 1px solid black;
+    font-family: sans-serif, Arial, Helvetica;
+}
+
+ul {
+    list-style-type: none;
+}
+
+header {
+    overflow: hidden;
+    background-color: coral;
+    border-bottom: 1px solid black;
+}
+
+header h1 {
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+header ul {
+    margin: 0;
+    margin-left: 25%;
+}
+
+.navbar {
+    float: left;
+    background-color: skyblue;
+}
+
+.navbar a {
+    display: block;
+    width: 100px;
+    text-align: center;
+    padding-top: 33%;
+    padding-bottom: 33%;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: thistle;
+}
+
+#navLeft {
+    border-left: 1px solid black;
+}
+
+#navCenter {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+#navRight {
+    border-right: 1px solid black;
+}
+
+#content {
+    background-color: palegreen;
+    overflow: auto;
+}
+
+section {
+    float: left;
+    width: 80%;
+    padding: 10px;
+    border-right: 1px solid black;
+    background-color: palegoldenrod;
+}
+
+#firstArticle {
+    width: 50%;
+    float: left;
+}
+
+#secondArticle {
+    width: 50%;
+    float: right;
+}
+
+img {
+    width: 100%;
+}
+
+aside {
+    float: right;
+    padding-right: 1%;
+    background-color: transparent;
+}
+
+aside h2 {
+    text-align: center;
+}
+
+footer {
+    width: 100%;
+    overflow: auto;
+    text-align: center;
+    background-color: rebeccapurple;
+}
